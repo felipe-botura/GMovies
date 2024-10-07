@@ -1,0 +1,38 @@
+npx create-expo-app@latest GMovies --template blank
+
+cd GMovies
+
+// React Navigation
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler
+
+//TailWind - NativeWind
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init
+
+// Carousel
+npm i react-native-reanimated-carousel
+npx expo install react-native-reanimated
+
+// react native heroicons
+npm i react-native-heroicons
+
+// Gradiente
+npm i expo-linear-gradient
+
+// Barra de progresso
+npm i react-native-progress
+
+// Fetch API - Axios
+npm i axios
+
+Executar:
+    npx expo start --android --localhost
+
+Configuração da conta local do GIT:
+git config --global user.name felipe-botura
+
+git config --global user.email felipebotura7@gmail.com
