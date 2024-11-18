@@ -10,9 +10,9 @@ import MovieList from '../components/movieList';
 const ios = Platform.OS == "ios";
 
 export default function HomeScreen() {
-  const [trending, setTrendring] = useState([1,2,3]);
-  const [upcoming, setUpcoming] = useState([1,2,3]);
-  const [topRated, setTopRated] = useState([1,2,3]);
+  const [trending, setTrendring] = useState([1, 2, 3]);
+  const [upcoming, setUpcoming] = useState([1, 2, 3]);
+  const [topRated, setTopRated] = useState([1, 2, 3]);
   return (
     <View className="flex-1 bg-neutral-800">
       <SafeAreaView className={ios ? "mb-2" : "mb-3"}>
@@ -40,7 +40,7 @@ export default function HomeScreen() {
 
         <MovieList title="Melhores avaliados" data={topRated} />
 
-        
+
       </ScrollView>
     </View>
   )
